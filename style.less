@@ -1,0 +1,171 @@
+@background: lightgrey;
+@display: flex;
+@margin: auto;
+@justify: center;
+@width: 400px;
+@top: 12%;
+@direction: column;
+@color: white;
+@padding:  30px 50px;
+@col-txt: grey;
+@font-w: 100;
+@font-family: Geneva, Arial, Helvetica, sans-serif;
+@pad-b: 10px 32px;
+@pad-a: 8px 10px;
+@border: none;
+@col-b: #4f6199;
+@font-s: 11px;
+@font-st: italic;
+@font-p: 11px;
+@font-h1: 24px;
+@fn-s: 15px;
+@top-h2: 30%;
+@txt-dec: none;
+@mar-b: 0;
+@mar-l: 5%;
+@w-a: 55%;
+@m-b: 20px;
+@m-bt: 27px;
+@p-t: 5px;
+@b-c: #6c6e6e;
+@padding-b: 10px 77px;
+@f-w: 95%;
+@f-o: 90%;
+@bor-p: 6px;
+@txt-center:center;
+body{
+    background-color: @background;
+}
+* svg{
+    color: @color;
+}
+.close_p{
+    margin: 0;
+}
+.close{
+    text-decoration: @txt-dec;
+    color: @color;
+    padding: @bor-p;
+    border-radius: 50%;
+    background-color: @background;
+    width: 19px;
+    text-align: @txt-center;
+    float: right;
+}
+.form-top{
+    margin-top: @top;
+}
+.form{
+    font-family: @font-family;
+    font-weight: @font-w;
+    display: @display;
+    margin: @margin;
+    justify-content: @justify;
+    flex-direction: @direction;
+    width: @width;
+    background-color: @color;
+    padding: @padding;
+}
+.form h1{
+    color: @col-txt;
+    font-size: @font-h1;
+    font-weight: @font-w;
+}
+.form h3{
+    color: @col-txt;
+    font-size: @font-s;
+    font-family: @font-family;
+    font-weight: @font-w;
+}
+.form_one_p{
+    color: @col-txt;
+    font-size: @font-p;
+    font-family: @font-family;
+    font-style: @font-st;
+}
+.flex-form{
+    display: @display;
+}
+.flex-form_one{
+    width: @f-o;
+}
+.flex-form_one button{
+    padding: @pad-b;
+    border: @border;
+    background-color: @col-b;
+}
+.flex-form_one_button{
+    margin: 0;
+}
+.flex-form_one h2{
+    font-size: @fn-s;
+    margin-top: @top-h2;
+    margin-bottom: @mar-b;
+}
+
+.flex-form_two{
+    display: @display;
+    flex-direction: @direction;
+    margin-left: @mar-l;
+    width: @w-a;
+}
+.flex-form a{
+    text-decoration: @txt-dec;
+    color: @col-txt;
+    font-size: @font-s;
+}
+input[name="email"]{
+    padding: @pad-a;
+    margin-bottom: @m-b;
+}
+input[name="password"]{
+    padding: @pad-a;
+    margin-bottom: @m-bt;
+}
+.flex-form_three form{
+    display: @display;
+    width: 90%;
+    margin: @margin;
+}
+.flex-form_three p{
+    margin: 0;
+    font-size: @font-p;
+}
+.flex-form_three a{
+    padding-top: @p-t;
+}
+* a:hover{
+   color: green;
+}
+.flex-form_four button{
+    background-color: @b-c;
+    border: @border;
+    display: @display;
+    margin: @margin;
+    padding: @padding-b;
+    color: @color;
+}
+.flex-form_four button{
+-moz-transition: background-color 0.8s 0.1s ease;
+-o-transition: background-color 0.8s 0.1s ease;
+-webkit-transition: background-color 0.8s 0.1s ease;
+cursor: pointer;
+}
+ 
+.flex-form_four button:hover {
+  background-color: #333;
+  color: white;
+}
+.flex-form_one_button{
+-moz-transition: background-color 0.8s 0.1s ease;
+-o-transition: background-color 0.8s 0.1s ease;
+-webkit-transition: background-color 0.8s 0.1s ease;
+cursor: pointer;
+}
+.flex-form_one button:hover {
+  background-color: #4f6199;
+  color: white;
+}
+
+
+
